@@ -12,4 +12,4 @@ def temperature_converter(amount, from_unit, to_unit):
     elif from_unit == 'Kelvin' and to_unit == 'Fahrenheit':
         return (amount - 273.15) * 9 / 5 + 32
     else:
-        return amount * 2
+        return amount
