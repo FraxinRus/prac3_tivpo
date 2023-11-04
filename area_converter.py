@@ -11,3 +11,5 @@ def area_converter(value, from_system, to_system):
         return value / 1000
     elif from_system == 2 and to_system == 1:  # Декар в гектар
         return value / 10
+    else:
+        return value
