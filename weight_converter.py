@@ -11,3 +11,5 @@ def weight_converter(value, from_system, to_system):
         return value * 0.41
     elif from_system == 2 and to_system == 1:  # Старорусская система в американскую систему
         return value * 0.9
+    else:
+        return value  # Если системы совпадают или ключи некорректны, возвращаем исходное значение
